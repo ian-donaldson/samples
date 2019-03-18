@@ -1,5 +1,5 @@
 # The ShadowReader
-# Ian's comment
+# Ian's new comment
 
 The ShadowReader is a demo of how to use PWA+AMP techniques with existing AMP documents to build a production-ready Progressive Web App in an efficient, time-saving way.
 
