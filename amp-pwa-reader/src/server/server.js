@@ -23,15 +23,14 @@ const pubBackend = require('./Backend.js');
 const enforce = require('express-sslify');
 const helmet = require('helmet');
 const xmlParser = require('xml2json');
-
-import routes from './routes'
+const routes = require('./routes');
 
 const ENVIRONMENT_PRODUCTION = 'production';
 
 const app = express();
 const pub = new pubBackend();
 
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser');
 
 app.use(helmet());
 
