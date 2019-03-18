@@ -24,10 +24,14 @@ const enforce = require('express-sslify');
 const helmet = require('helmet');
 const xmlParser = require('xml2json');
 
+import routes from './routes'
+
 const ENVIRONMENT_PRODUCTION = 'production';
 
 const app = express();
 const pub = new pubBackend();
+
+var bodyParser = require('body-parser')
 
 app.use(helmet());
 
