@@ -10,6 +10,7 @@
   "author": "Ian Donaldson",
   "license": "Apache-2.0",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "connect-history-api-fallback": "*",
     "del": "*",
     "express": "^4.16.2",
