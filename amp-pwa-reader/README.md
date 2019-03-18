@@ -1,7 +1,6 @@
-# The ShadowReader
-# Ian's new comment
+# Second.School
 
-The ShadowReader is a demo of how to use PWA+AMP techniques with existing AMP documents to build a production-ready Progressive Web App in an efficient, time-saving way.
+The Second.School is an example of how to use PWA+AMP techniques in the context of a production-ready Progressive Web App in an efficient, time-saving way.
 
 ## Build instructions
 

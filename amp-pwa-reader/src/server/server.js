@@ -97,7 +97,7 @@ app.get('/' + pub.pathname + '/*', (req, res) => {
         res.send(addServiceWorker(replaceSidebar(body)));
       } else {
         res.json({error: 'An error occurred in the article route'});
-      }      
+      }
     });
 
   }
