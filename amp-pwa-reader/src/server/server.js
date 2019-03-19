@@ -31,7 +31,7 @@ const app = express();
 const pub = new pubBackend();
 
 var bodyParser = require('body-parser');
-var config = require('config.js')
+var config = require('./config.js')
 app.use(helmet());
 
 if (app.get('env') === ENVIRONMENT_PRODUCTION) {
