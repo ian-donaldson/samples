@@ -23,7 +23,7 @@ const pubBackend = require('./Backend.js');
 const enforce = require('express-sslify');
 const helmet = require('helmet');
 const xmlParser = require('xml2json');
-const routes = require('./routes');
+const routes = require('./routes/routes.js');
 
 const ENVIRONMENT_PRODUCTION = 'production';
 
@@ -31,7 +31,7 @@ const app = express();
 const pub = new pubBackend();
 
 var bodyParser = require('body-parser');
-
+var config = require('config.js')
 app.use(helmet());
 
 if (app.get('env') === ENVIRONMENT_PRODUCTION) {
